@@ -1,0 +1,124 @@
+body {
+  background-color: #e5e5e5;
+}
+.left {
+  height: 587px;
+  width: 621px;
+  float: left;
+  filter: drop-shadow(0 0 0.55rem grey);
+}
+.right {
+  width: 374px;
+  height: 588px;
+  float: right;
+  background-color: white;
+}
+.custom {
+  margin-left: 100px;
+}
+
+input {
+  width: 315px;
+  height: 42px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-left: 20px;
+  padding-left: 13px;
+}
+.login {
+  margin-left: 20px;
+  width: 335px;
+}
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.or-hr1,
+.or-hr2 {
+  flex: 1;
+  color: #ebebeb;
+  margin: 0 10px;
+}
+.or-container2 {
+  color: #5a686c;
+  font-family: "Poppins", sans-serif;
+}
+button {
+  width: 330px;
+  height: 42px;
+  margin: 8px 0px 0px 20px;
+  background-color: white;
+  border: none;
+}
+.fp {
+  font-family: "Poppins", sans-serif;
+  color: #5a686c;
+  margin-left: 130px;
+  font-size: 80%;
+}
+.hr-container2 {
+  width: 69px;
+  height: 0;
+  border-color: #ebebeb;
+}
+a {
+  color: #1877f2;
+  margin-left: 25%;
+  font-family: "Poppins", sans-serif;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+p {
+  color: #5a686c;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+}
+
+#footer {
+  width: 373px;
+  height: 52px;
+  display: flex;
+}
+
+.appstore {
+  width: 176px;
+  height: 52px;
+  background-color: whitesmoke;
+  color: #212121;
+  border: solid #212121;
+  border-radius: 7px;
+  display: inline;
+}
+
+.appstore > span {
+  font-weight: 500;
+  color: #212121;
+}
+.googleplay {
+  width: 176px;
+  height: 52px;
+  background-color: whitesmoke;
+  color: #808285;
+  border: solid #808285;
+  border-radius: 7px;
+  position: relative;
+}
+.googleplay > span {
+  position: absolute;
+  transform: translateX(-50%);
+  padding-top: 8px;
+  left: 50%;
+  font-size: 13px;
+  font-weight: 500;
+}
+.google-play {
+  width: 30px;
+  height: 22px;
+  background-color: whitesmoke;
+  color: #808285;
+  padding: 6px 108px 0px 0px;
+}
